@@ -1,0 +1,290 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+body
+{
+   -webkit-font-smoothing:antialiased;
+   text-rendering: optimizeLegibility;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#searchinput{
+   width: 170px; 
+ }  
+   
+#navii li a{
+   color:#00A6FB ;
+   font-family: sans-serif;
+}   
+.navbar-brand{
+   padding-top: 0;
+   padding-bottom: 0;
+   margin-right: 45px;
+   background-color: #000000;
+}
+.navbar-brand img{
+   height: 50px;
+}
+#navi{
+      background-color: #000000;
+   }
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel{
+   margin-top: 60px;
+   /*height: 300px;*/
+}
+.carousel-caption{
+   font-size: 25px;
+   font-family: sans-serif;
+}
+
+.carousel-caption h4{
+   font-size: 35px;
+}
+#myCarousel .item{
+
+   height: 400px;
+}
+#slide1{
+   background:url('../../images/s3.jpg') top center no-repeat;
+   background-size: cover;
+   
+}
+#slide2{
+   background:url('../../images/s4.jpg') top center  no-repeat;
+   background-size: cover;
+  }
+   #slide3{
+   background:url('../../images/s5.jpg ')top center no-repeat;
+   background-size: cover;
+   }
+body{
+   background-color: #E0D2C3;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+#name1 h1{
+   color: red;
+   font-weight: bold;
+   font-family: sans-serif;
+   font-size: 20px;
+
+}
+
+#name1 img{
+   background-image: cover;
+}
+
+#c1{
+   font-family: sans-serif;
+   color: #B4C292;
+   font-style: 30px;
+}
+
+#c3{
+   font-family: sans-serif;
+   color: #B77FA9;
+   font-size: 70px;
+}
+#cp1{
+   color: #2E86AB;
+   font-family: 'Lily Script One',cursive;
+   font-size: 30px;
+}
+#cp3{ 
+   color:#F7D4BC;
+   font-family: 'Lily Script One',cursive;
+   font-size: 30px;
+}
+#name1 p{
+   font-family: sans-serif;
+   padding-left: 200px;
+   color: #17BEBB;
+  padding-left: 30px;
+   font-weight: bold;
+   font-size: 30px;
+   font-family: 'Knewave';
+   font-size: 40px;
+}
+
+#name1
+{
+   margin-top: 60px;
+    
+}
+
+
+#name1{
+   background-image: url('../../images/1.jpg');
+   background-repeat: no-repeat;
+
+}
+#hop
+{
+   font-size: 30px;
+   padding-left: 50px;
+   padding-left: 12px;
+}
+
+.row{
+   
+   margin:0;
+   /*justify-content: space-around;*/
+   margin-top:30px;
+}
+
+.row .col-sm-3 .thumbnail svg{
+   color: #fff;
+}
+
+#cmm1{
+ background-color: #E84B19;
+ /*padding-top: 30px;*/
+
+}
+#cmm2{
+ background-color: #FF521B;
+ /*padding-top: 30px;*/
+ margin: 0;
+}
+#cmm3{
+ background-color: #E84B19;
+ /*padding-top: 16px;*/
+
+}
+#cmm4{
+ background-color: #FF521B;
+/*padding-top: 46px;*/
+margin-bottom: 0px;
+}
+#cm1{
+   color: #37B4E5;
+   font-family: sans-serif;
+   font-size: 20px;
+}
+#cm2{
+   color: #37B4E5;
+   font-family: sans-serif;
+   font-size: 20px;
+}
+#cm3{
+   color: #37B4E5;
+   font-family: sans-serif;
+   font-size: 20px;
+}
+#cm4{
+   color: #37B4E5;
+   font-family: sans-serif;
+   font-size: 20px;
+}
+
+
+.f {
+   background-color:#B8B8AA ;
+   color: white;
+   font-size: 11px;
+   padding: 20px;
+   font-family: sans-serif;
+}
+hr{
+   color: black;
+}
+
+#form{
+   background-color: #F7D4BC;
+   height: 400px;
+   /*width: 1000px;*/
+}
+#name{
+   margin-top: 50px;
+   font-family: sans-serif;
+}
+
+
+
+/*-->body{
+   background: url(../../images/1.jpg) no-repeat center;
+   background-image: fixed;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   #myCarousel .item{
+      height: 310px;
+   }
+	#slide1{
+   background:url('../../images/s3.jpg') top center no-repeat;
+   background-size: cover;
+   
+}
+#slide2{
+   background:url('../../images/s4.jpg') top center  no-repeat;
+   background-size: cover;
+  }
+   #slide3{
+   background:url('../../images/s5.jpg ')top center no-repeat;
+   background-size: cover;
+   }
+   .carousel-caption {
+   font-size: 16px;
+ }
+   .carousel-caption h4{
+      font-size: 20px;
+   }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+
+
+#mycarousel .item{
+   height: 500px;
+}
+
+#slide1{
+   background:url('../../images/s3.jpg') top center no-repeat;
+   
+}
+#slide2{
+   background:url('../../images/s4.jpg') top center  no-repeat;
+  }
+   #slide3{
+   background:url('../../images/s5.jpg')top center no-repeat;
+   }
+	
+}
